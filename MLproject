@@ -1,0 +1,19 @@
+name: clasificacion-sueno
+
+entry_points:
+  main:
+    parameters:
+      n_estimators: {type: int, default: 300}
+      max_depth: {type: int, default: 12}
+      min_samples_leaf: {type: int, default: 2}
+    command: "python src/train.py --n-estimators {n_estimators} --max-depth {max_depth} --min-samples-leaf {min_samples_leaf}"
+
+  evaluate:
+    parameters:
+      alias: {type: string, default: champion}
+    command: "python src/evaluate.py --alias {alias}"
+
+  save-local:
+    parameters:
+      alias: {type: string, default: champion}
+    command: "python src/save_local.py --alias {alias}"

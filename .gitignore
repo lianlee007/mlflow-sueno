@@ -1,0 +1,12 @@
+.venv/
+mlflow.db
+mlruns/
+mlartifacts/
+__pycache__/
+.env
+model/
+modelo_local/
+predicciones*.csv
+predicciones*.json
+dockerfile_out/
+descargado/

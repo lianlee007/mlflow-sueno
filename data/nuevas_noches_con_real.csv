@@ -1,0 +1,6 @@
+age,gender,chronotype,occupation,bedtime_hour,screen_time_before_bed_min,primary_app_category,screen_brightness_pct,blue_light_filter_on,caffeine_intake_mg,caffeine_last_hour,physical_activity_min,room_temperature_f,ambient_noise_db,sleep_debt_category
+38,Female,Intermediate,Professional,23.41,72,Messaging,76,False,267,20.8,13,67.2,47.0,Mild
+32,Female,Early Bird,Student,23.8,21,Streaming,75,True,20,7.5,9,77.6,36.9,Mild
+26,Female,Intermediate,Professional,22.57,21,E-Reading,100,False,51,17.9,12,72.3,28.1,Moderate
+33,Female,Early Bird,Student,22.84,66,News,66,False,65,17.3,7,64.4,42.3,Moderate
+26,Male,Intermediate,Student,23.27,68,Social Media,67,True,30,17.2,76,70.3,38.3,Mild

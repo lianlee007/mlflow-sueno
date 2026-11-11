@@ -1,0 +1,38 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "age",
+      "gender",
+      "chronotype",
+      "occupation",
+      "bedtime_hour",
+      "screen_time_before_bed_min",
+      "primary_app_category",
+      "screen_brightness_pct",
+      "blue_light_filter_on",
+      "caffeine_intake_mg",
+      "caffeine_last_hour",
+      "physical_activity_min",
+      "room_temperature_f",
+      "ambient_noise_db"
+    ],
+    "data": [
+      [
+        23,
+        "Male",
+        "Intermediate",
+        "Unemployed",
+        0.18,
+        92,
+        "Social Media",
+        81,
+        false,
+        187,
+        12.9,
+        71,
+        79.8,
+        29.3
+      ]
+    ]
+  }
+}
